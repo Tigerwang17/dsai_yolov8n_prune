@@ -17,14 +17,23 @@ model pt文件list及prune说明：
 01_Baseline_Pretrained path:yolov8n.pt 原始官方版本
 02_Finetuned_Full path:yolov8n_finetune.pt 微调10轮适配11类任务
 03_Finetuned_Unstructured_10 path:yolov8n_finetune_pruned_10.pt 在02基础上非结构化剪枝10%
+
 04_Finetuned_Unstructured_30 path:yolov8n_finetune_pruned_30.pt 在02基础上非结构化剪枝30%
+
 05_Finetuned_Unstructured_50 path:yolov8n_finetune_pruned_50.pt 在02基础上非结构化剪枝50%
+
 06_preset_Structured_10 path:yolov8n_struct_pruned_10.pt 在02基础上指定层联动结构化剪枝10%
+
 07_preset_Structured_30 path:yolov8n_struct_pruned_30.pt 在02基础上指定层联动结构化剪枝30%
+
 08_width_scaling_10_phys path:yolov8n_struct_pruned_10_new.pt 在02基础上宽度缩放结构化剪枝10%
+
 09_width_scaling_10_phys_ft path:yolov8n_struct_pruned_10_finetune.pt 在02基础上宽度缩放结构化剪枝10%+微调10轮
+
 10_width_scaling_30_phys path:yolov8n_struct_pruned_30_new.pt 在02基础上宽度缩放结构化剪枝30%
+
 11_width_scaling_30_phys_ft path:yolov8n_struct_pruned_30_finetune.pt 在02基础上宽度缩放结构化剪枝+微调10轮
+
 
 使用官方yolov8n及训练数据
 - yolov8n Model：https://docs.ultralytics.com/zh/models/yolov8/#performance-metrics
