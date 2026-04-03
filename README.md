@@ -14,6 +14,7 @@ Colab Notebook文件：DSAI_yolov8n_prune_baselinetest.ipynb
 实验结果记录：prune_test_record.xlsx
 
 model pt文件list及prune说明：
+
 01_Baseline_Pretrained path:yolov8n.pt 原始官方版本
 
 02_Finetuned_Full path:yolov8n_finetune.pt 微调10轮适配11类任务
